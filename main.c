@@ -22,6 +22,7 @@ int isUserButtonPressed() {
 }
 
 int main() {
+    i2c_pin_configure();
     Sampler_startSampling();
      
 
